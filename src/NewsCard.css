@@ -1,0 +1,44 @@
+.news-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+ 
+}
+
+.news-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 10px;
+}
+
+.news-content h2 {
+    font-size: 1rem;
+    margin: 0;
+    word-wrap: break-word;
+    white-space: normal; 
+}
+
+.news-content p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.news-content a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
